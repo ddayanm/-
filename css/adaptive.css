@@ -1,0 +1,71 @@
+@media (max-width: 320px) {
+  .container {
+    padding-inline: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav input {
+    width: 100%;
+    padding: 14px 15px;
+    font-size: 0.9rem;
+  }
+
+  .nav button {
+    width: 100%;
+    padding: 12px 0;
+    font-size: 0.9rem;
+  }
+
+  .done {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .done-content {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .done-content input {
+    max-width: 100%;
+    padding: 14px 15px;
+    font-size: 0.9rem;
+    padding-right: 15px;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  #doneBtn,
+  #btnRemove {
+    position: static;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+
+  #doneBtn {
+    background-color: #ecbb5b;
+    margin-bottom: 5px;
+  }
+
+  #btnRemove {
+    background-color: #c64444;
+  }
+
+  #footer {
+    padding: 12px 10px;
+    font-size: 0.85rem;
+  }
+}
