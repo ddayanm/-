@@ -1,4 +1,7 @@
 @media (max-width: 528px) {
+  h1 {
+    font-size: 40px;
+  }
   .done-content input {
     width: 100%;
     max-width: 500px;
@@ -19,6 +22,9 @@
 }
 
 @media (max-width: 374px) {
+  h1 {
+    font-size: 30px;
+  }
   .nav input {
     padding: 11px 18px;
     border-radius: 10px;
@@ -58,5 +64,6 @@
     padding: 4px 2px;
     font-size: 14px;
     border-radius: 10px;
+    background-color: red;
   }
 }
