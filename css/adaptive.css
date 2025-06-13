@@ -36,7 +36,7 @@
   }
   .done-content input {
     width: 100%;
-    max-width: 400px;
+
     padding: 18px 130px 18px 18px;
   }
   .done-content input::placeholder {
@@ -49,6 +49,11 @@
     padding: 9px 15px;
     border-radius: 10px;
   }
+  .done-content input {
+    width: 100%;
+
+    padding: 18px 90px 18px 18px;
+  }
   .nav button {
     padding: 6px 5px;
 
@@ -59,6 +64,11 @@
   .nav input {
     padding: 9px 15px;
     border-radius: 10px;
+  }
+  .done-content input {
+    width: 100%;
+
+    padding: 18px 60px 18px 18px;
   }
   .nav button {
     padding: 4px 2px;
