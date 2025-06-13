@@ -10,6 +10,9 @@
   max-width: 1280px;
   margin-inline: auto;
   padding-inline: 40px;
+  @media (max-width: 528px) {
+    padding-inline: 20px;
+  }
 }
 body {
   background-color: #202020;
