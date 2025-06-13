@@ -30,7 +30,7 @@
   }
   .done-content input {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     padding: 18px 130px 18px 18px;
   }
   .done-content input::placeholder {

@@ -124,6 +124,8 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  display: flex;
+  gap: 10px;
 }
 .done-content input::placeholder {
   color: #bababa;
