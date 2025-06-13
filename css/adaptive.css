@@ -22,18 +22,33 @@
 }
 @media (max-width: 410px) {
   .nav input {
-    padding: 9px 15px;
+    padding: 11px 18px;
+    border-radius: 10px;
+  }
+  .nav button {
+    padding: 8px 7px;
+
     border-radius: 10px;
   }
   .done-content input {
     width: 100%;
 
-    padding: 18px 90px 18px 25px;
+    padding: 18px 130px 18px 18px;
   }
-  .nav button {
-    padding: 4px 2px;
-    font-size: 11px;
+  .done-content input::placeholder {
+    font-size: 14px;
+  }
+
+  #doneBtn {
     border-radius: 10px;
+    padding: 10px 9px;
+    position: absolute;
+    top: 8px;
+    right: 100px;
+  }
+  #btnRemove {
+    top: 8px;
+    right: 11px;
   }
 }
 
@@ -85,6 +100,37 @@
     width: 100%;
 
     padding: 18px 90px 18px 25px;
+  }
+  .nav button {
+    padding: 4px 2px;
+    font-size: 11px;
+    border-radius: 10px;
+  }
+
+  #doneBtn {
+    padding: 8px 5px;
+
+    top: 10px;
+    right: 82px;
+    font-size: 15px;
+  }
+  #btnRemove {
+    padding: 8px 5px;
+    font-size: 15px;
+
+    top: 10px;
+    right: 5px;
+  }
+}
+@media (max-width: 345px) {
+  .nav input {
+    padding: 9px 15px;
+    border-radius: 10px;
+  }
+  .done-content input {
+    width: 100%;
+
+    padding: 18px 50px 18px 25px;
   }
   .nav button {
     padding: 4px 2px;
