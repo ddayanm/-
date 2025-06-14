@@ -69,16 +69,20 @@ h1 {
 } */
 .nav {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 
 .nav input {
+  width: 100%;
+  width: 300px;
   padding: 18px 25px;
   background-color: #202020;
   border: 2px solid #373737;
   font-size: clamp(1rem, 1.091rem + -0.45vw, 0.75rem);
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 10px;
+  color: white;
 }
 
 .nav input::placeholder {
@@ -98,28 +102,30 @@ h1 {
   cursor: pointer;
 }
 
-#done {
-  padding-block: 50px;
-}
 .done {
+  padding-block: 50px;
+  overflow-y: auto;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 .done-content {
+  padding-block: 10px;
   display: flex;
-  position: relative;
+  justify-content: center;
+  /* position: relative; */
   gap: 10px;
 }
-.done-content input {
-  width: 100%;
 
-  padding: 18px 200px 18px 25px;
+.done-content ul {
+  width: 40%;
+  max-width: 300px;
+  padding: 18px 200px 18px 28px;
   background-color: #202020;
-  /* border: 1px solid #bababa; */
+
   border: 2px solid #373737;
   font-size: clamp(1rem, 1.091rem + -0.45vw, 0.75rem);
-  font-weight: 600px;
+  font-weight: 400;
 
   border-radius: 10px;
   white-space: nowrap;
@@ -127,12 +133,15 @@ h1 {
   text-overflow: ellipsis;
   display: flex;
   gap: 10px;
-}
-.done-content input::placeholder {
   color: #bababa;
 }
+.done-card {
+  display: flex;
+  align-items: center;
 
-#doneBtn {
+  gap: 5px;
+}
+.doneBtn {
   background-color: #ecbb5b;
   border: 2px solid #373737;
   border-radius: 10px;
@@ -140,12 +149,12 @@ h1 {
   font-size: clamp(1rem, 1.091rem + -0.45vw, 0.75rem);
 
   color: #2c2c2c;
-  position: absolute;
+  /* position: absolute; */
   cursor: pointer;
-  top: 8px;
-  right: 100px;
+  /* top: 8px;   */
+  /* right: 388px; */
 }
-#btnRemove {
+.btnRemove {
   background-color: #c64444;
   border: 2px solid #373737;
   border-radius: 10px;
@@ -154,9 +163,9 @@ h1 {
   font-size: clamp(1rem, 1.091rem + -0.45vw, 0.75rem);
 
   color: #2c2c2c;
-  position: absolute;
-  top: 8px;
-  right: 11px;
+  /* position: absolute; */
+  /* top: 8px;
+  right: 301px; */
 }
 
 #footer {
